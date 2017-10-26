@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.Views.ViewWeather">
+    <ContentPage.Content>
+        <StackLayout  VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+            <Label x:Name="lblDate" FontSize="Large" />
+            <StackLayout x:Name="logo" Orientation="Horizontal">
+                <Image x:Name="weatherICon" HorizontalOptions="CenterAndExpand" Aspect="AspectFit" HeightRequest="150" WidthRequest="150"/>
+            </StackLayout>
+            <Label x:Name="lblDesc" FontSize="Large"/>
+            <Label x:Name="lblName" FontSize="Large"/>
+            <Label x:Name="lblmax" FontSize="Large"/>
+            <Label x:Name="lblmix" FontSize="Large"/>
+            <Label x:Name="lblHumidity" FontSize="Large"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
